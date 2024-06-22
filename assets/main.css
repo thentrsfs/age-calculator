@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url(./fonts/Poppins-ExtraBold.ttf);
+}
+
+body {
+    background-color: hsl(0, 0%, 86%);
+    font-family: 'Poppins-bold', sans-serif;
+}
+
+.custom-container {
+    background-color: white;
+}
+
+.mobile-font {
+    font-size: 10px
+}
+
+.output {
+    color: hsl(259, 100%, 65%);
+    display: inline;
+    width: 16%;
+    letter-spacing: 5px;
+}
+
+.v-text-field input {
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .v-text-field input {
+        font-size: 15px;
+        margin-left: 2px;
+
+    }
+}
