@@ -30,9 +30,9 @@ yarn install
 3. Enter your year of birth in the "Year" field.
 4. Click the "Calculate Age" button to see your calculated age.
 ## Validation Rules
-# Day: Must be between 1 and 31.
-# Month: Must be between 1 and 12.
-# Year: Must not be greater than the current year.
+-Day: Must be between 1 and 31.
+-Month: Must be between 1 and 12.
+-Year: Must not be greater than the current year.
 If the input is invalid:
 
 The corresponding field's label will turn red.
