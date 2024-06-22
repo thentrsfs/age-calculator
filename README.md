@@ -13,13 +13,11 @@ This Age Calculator app is a simple and intuitive application built with Vue 3 a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/thentrsfs/Contact-Form.git
-   cd Contact-Form
+   git clone https://github.com/thentrsfs/age-calculator.git
+   cd age-calculator
    
 2. Install dependencies
    npm install
-# or
-yarn install
 
 3. Running the project
    npm run dev
